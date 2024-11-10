@@ -93,3 +93,48 @@ void main() {
         printf("%d\t%d\t%d\n", s[i][0], s[i][1], s[i][2]);
     }
 }
+
+/* SAMPLE OUTPUT
+Enter the number of rows and coloumsn: 5 
+4
+Enter the elements of (5 x 4) matrix A : 
+0 7 0 0
+5 0 0 0
+4 0 0 0
+0 0 0 1
+0 2 0 0
+Enter the elements of (5 x 4) matrix B : 
+0 7 0 0
+5 0 0 0
+4 0 0 0
+0 0 0 1
+0 2 0 0
+
+TRIPLET REPRESENTATION OF MATRIX A
+
+ROW     COLOUMN VALUE
+0       1       7
+1       0       5
+2       0       4
+3       3       1
+4       1       2
+
+TRIPLET REPRESENTATION OF MATRIX B
+
+ROW     COLOUMN VALUE
+0       1       7
+1       0       5
+2       0       4
+3       3       1
+4       1       2
+
+TRIPLET REPRESENTATION
+
+ROW     COLOUMN VALUE
+5       4       5
+0       1       14
+1       0       10
+2       0       8
+3       3       2
+4       1       4
+    */

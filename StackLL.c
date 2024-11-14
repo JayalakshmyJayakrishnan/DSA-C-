@@ -30,18 +30,18 @@ void pop(struct Node** top) {
 }
 
 void display(struct Node* top) {
-    if(top == NULL) {
+    if (top == NULL) {
         printf("The stack is empty.\n");
         return;
     }
+
     printf("Stack elements are: \n");
-    while(top!=NULL) {
-        printf("%d\n", top->data);
-        top = top->next;
+    struct Node* current = top;
+    while (current != NULL) {
+        printf("%d\n", current->data);
+        current = current->next;
     }
-    
-    
-    }
+}
     
 int main() {
     struct Node* top = NULL;
